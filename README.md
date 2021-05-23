@@ -1,5 +1,5 @@
 # virus_gif
-This is an *.hta template, where you need to insert your own value and it will be virus_gif, made with the help of Empire
+This is an *.hta template, where you need to insert your own value and it will be virus_gif, made with the help of Empire. What's the fun of this thing ? The joke is that you just throw this gif to someone, and you get remote access. Be careful, as antiviruses are burning, so we need to improve it:). In order for everything to work, you need to do everything that I wrote at the bottom.
 
 - Self Empire: https://github.com/EmpireProject/Empire
 - I indicated there that it is necessary to change.
